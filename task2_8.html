@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>task 2.8</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let username = "Popa Vladimir"
+		let password = "123456789"
+		let us = prompt('Enter username:');
+		let pas = prompt("Enter password:");
+		if (us === username && pas === password)
+			alert('Hello!')
+			else if (password != pas && us === username)
+				alert('Incorrect password')
+					else if (us != username && pas === password || us != username && pas != password)
+						alert('Incorrect username')
+						else if (us=="" && pas =="") alert('Validation error');
+	</script>
+</body>
+</html>

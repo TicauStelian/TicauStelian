@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>task 2.3</title>
+</head>
+<body>
+	<script type="text/javascript"> //max(a,b) = ((a + b) + |a - b|)/2, min(a,b) = ((a+b) - |a-b|)
+	let a = 2, b = 7, c = -32;
+	if (((a+b) + Math.abs(a-b))/2 < c) alert (`Max = ${c}`); else alert (`Max  = ${((a+b) + Math.abs(a-b))/2}`);
+	if (((a+b) - Math.abs(a-b))/2 > c) alert (`Min = ${c}`); else alert (`Min  = ${((a+b) - Math.abs(a-b))/2}`);
+	</script>
+</body>
+</html> 

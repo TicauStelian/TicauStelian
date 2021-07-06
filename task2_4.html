@@ -7,10 +7,9 @@
 <body>
 	<script type="text/javascript">
 		function ucFirst(str) {
-			str[0] -= 22;
-			return str;
+			return str.charAt(0).toUpperCase() + str.slice(1);
 		}
-		alert (ucFirst("body"));
+		alert (ucFirst("чody"));
 	</script>
 </body>
 </html>
